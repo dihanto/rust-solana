@@ -27,4 +27,14 @@ fn main() {
         age: u32,
         likes_brownies: bool,
     }
+
+    let mut message_number = 1;
+    let message1 = "hello";
+    println!("message number {}: {}", message_number, message1);
+    message_number = 2;
+    let message2 = "world";
+    println!("message number {}: {}", message_number, message2);
+    message_number = 3;
+    let message3 = 24;
+    println!("message number {1}: {0}", message3, message_number)
 }
